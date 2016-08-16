@@ -28,5 +28,5 @@ A solution to automatically control lights based on light levels and movement.
 
 ##Description
 > When it is past 1800hrs and before 0700hrs, the motion sensor detects movement and sends a signal. The time difference between the trigger and echo is recorded. 
-> The distance between the obstacle and the sensor is calculated by ```distance = speed * time/2```
+> The distance between the obstacle and the sensor is calculated by ```distance = speed * time/2``` where `speed` is the speed of sound `340.29 m / s` 
 > If the distance between the obstacle and motion sensor is within the range, the bulb lights, otherwise the bulb goes off.
