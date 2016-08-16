@@ -27,7 +27,6 @@ A solution to automatically control lights based on light levels and movement.
 + Run the program `python litt_2.py`
 
 ##Description
-+ When it is past 1800hrs and before 0700hrs, the motion sensor detects movement and sends a signal. 
-+ The time difference between the trigger and echo is recorded. 
-+ The distance between the obstacle and the sensor is calculated by ```distance = speed * time/2```
-+ If the distance between the obstacle and motion sensor is within the range, the bulb lights, otherwise the bulb goes off.
+> When it is past 1800hrs and before 0700hrs, the motion sensor detects movement and sends a signal. The time difference between the trigger and echo is recorded. 
+> The distance between the obstacle and the sensor is calculated by ```distance = speed * time/2```
+> If the distance between the obstacle and motion sensor is within the range, the bulb lights, otherwise the bulb goes off.
