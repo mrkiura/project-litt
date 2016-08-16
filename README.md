@@ -24,7 +24,7 @@ A solution to automatically control lights based on light levels and movement.
 + Clone this repo `git clone git@github.com:andela-akiura/project-litt.git`
 + Install the RPI.GPIO module
 + Connect the jumper wires as shown in the diagram
-+ Run the program `python litt_2.py`
++ Run the program `python demo.py`
 
 ##Description
 > When it is past 1800hrs and before 0700hrs, the motion sensor detects movement and sends a signal. The time difference between the trigger and echo is recorded. 
